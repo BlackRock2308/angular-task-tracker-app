@@ -1,0 +1,16 @@
+ <div 
+    [ngClass] = "{ reminder : task.reminder }" 
+    class="task" 
+    *ngIf = "task"
+    (dblclick) = "onToggle(task)"> <!--*ngIf = "Task" permet de faire faire passer le task dans task-item -->
+   
+    <h3>{{ task.text }} 
+
+    <fa-icon 
+    (click) = "onDelete(task)"
+    [ngStyle] = "{'color' : 'red'}" 
+    [icon]= "faTimes"
+    ></fa-icon></h3>
+    
+    <h3>{{ task.day }}</h3>
+</div>
