@@ -1,4 +1,4 @@
-import { Component, OnInit, Output, EventEmitter } from '@angular/core';
+import { Component, OnInit, Output, EventEmitter , Input} from '@angular/core';
 import { Task } from 'src/app/Task';
 import { TaskService } from 'src/app/services/task.service';
 import { UiService } from 'src/app/services/ui.service';
@@ -16,8 +16,9 @@ export class AddTaskComponent implements OnInit {
   text !: string;
   day !: string;
   reminder: boolean = false;
-  showAddTask : Boolean = false;
-  subscription : Subscription
+
+  showAddTask !: boolean ;
+  subscription !: Subscription
 
 
   constructor(private taskService : TaskService, private uiService : UiService,  ) { 

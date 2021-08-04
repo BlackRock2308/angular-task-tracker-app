@@ -1,18 +1,6 @@
 {
   "tasks": [
     {
-      "id": 1,
-      "text": "Doctors Appointment",
-      "day": "May 5th at 2:30pm",
-      "reminder": true
-    },
-    {
-      "id": 2,
-      "text": "Meeting at School",
-      "day": "May 6th at 2:30pm",
-      "reminder": true
-    },
-    {
       "id": 3,
       "text": "Food Shopping",
       "day": "May 7th at 12:30pm",
@@ -29,6 +17,36 @@
       "text": "Presentation",
       "day": "August 7th at 9:30pm",
       "reminder": true
+    },
+    {
+      "text": "pray",
+      "day": "friday 30 13h",
+      "reminder": false,
+      "id": 6
+    },
+    {
+      "text": "Sophie's ceremony",
+      "day": "Saturday 31st",
+      "reminder": true,
+      "id": 7
+    },
+    {
+      "text": "Going to mb side",
+      "day": "Today 16h",
+      "reminder": true,
+      "id": 8
+    },
+    {
+      "text": "Buy new clothes",
+      "day": "Saturday 7th",
+      "reminder": true,
+      "id": 9
+    },
+    {
+      "text": "Go to mboro",
+      "day": "friday 30 13h",
+      "reminder": false,
+      "id": 10
     }
   ]
 }
